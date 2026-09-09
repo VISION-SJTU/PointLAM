@@ -1,0 +1,40 @@
+# Python and native builds
+__pycache__/
+*.py[cod]
+*.so
+build/
+dist/
+*.egg-info/
+pcdet/version.py
+
+# Local environments and editors
+.venv/
+venv/
+.env/
+.conda/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.DS_Store
+._*
+
+# Run output, weights, and generated data
+output*/
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.bin
+*.tfrecord
+*.zip
+*.tar
+*.tar.gz
+*.log
+
+# Only the canonical Waymo train/validation filename lists are source artifacts.
+data/**
+!data/waymo/
+!data/waymo/ImageSets/
+!data/waymo/ImageSets/train.txt
+!data/waymo/ImageSets/val.txt

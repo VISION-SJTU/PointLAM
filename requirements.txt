@@ -1,0 +1,23 @@
+# Python 3.10 runtime dependencies. Install PyTorch and CUDA operators as in docs/INSTALL.md.
+numpy==1.23.5
+numba==0.57.1
+scipy==1.10.1
+scikit-image==0.21.0
+tensorboardX==2.5.1
+easydict==1.13
+PyYAML==6.0.1
+SharedArray==3.2.4
+einops==0.7.0
+kornia==0.5.8
+spconv-cu118==2.3.6
+opencv-python==4.8.1.78
+pillow==10.2.0
+pandas==1.5.3
+matplotlib==3.5.3
+scikit-learn==1.2.2
+pyarrow==10.0.1
+av2==0.2.1
+nuscenes-devkit==1.1.11
+tensorflow-cpu==2.11.0
+protobuf==3.19.6
+tqdm
