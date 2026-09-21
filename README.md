@@ -1,5 +1,8 @@
 # [ECCV 2026] PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection
 
+[![arXiv](https://img.shields.io/badge/arXiv-2609.21780-b31b1b.svg)](https://arxiv.org/abs/2609.21780)
+[![Project Page](https://img.shields.io/badge/Project-Page-blue.svg)](https://pointlam.github.io/)
+
 **Xuanming Shang, Weijia Zhang, Chao Ma**
 
 PointLAM combines Laplacian point sampling with bidirectional Mamba and local Hadamard aggregation for point-based 3D object detection.
@@ -20,7 +23,11 @@ PointLAM combines Laplacian point sampling with bidirectional Mamba and local Ha
   title={PointLAM: Local Attentive Mamba for Efficient Point-based 3D Object Detection},
   author={Shang, Xuanming and Zhang, Weijia and Ma, Chao},
   booktitle={European Conference on Computer Vision (ECCV)},
-  year={2026}
+  year={2026},
+  eprint={2609.21780},
+  archivePrefix={arXiv},
+  primaryClass={cs.CV},
+  url={https://arxiv.org/abs/2609.21780}
 }
 ```
 
